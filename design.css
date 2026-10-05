@@ -5,7 +5,7 @@ body{background:var(--bg)}
 .header{background:var(--bg)}
 .monogram{color:var(--ink);border-color:#a7a9ae;background:transparent;border-radius:0;box-shadow:none;letter-spacing:-.08em}
 .header nav a[aria-current]{color:var(--accent);border-bottom-width:2px}
-.executive h1{font-size:clamp(3.2rem,5.6vw,4.65rem)}
+.executive h1{font-size:clamp(2.8rem,4.9vw,4.05rem)}
 .executive h1 span{color:var(--accent)}
 .position{font-size:clamp(1.15rem,2vw,1.5rem);line-height:1.5}
 .position-line{display:block}
@@ -30,5 +30,5 @@ body{background:var(--bg)}
 .flow strong{color:var(--ink)}
 .case-nav a{border-radius:6px}
 .skip{color:#fff}
-@media(max-width:650px){.executive h1{font-size:3.3rem}.proofs{padding:24px 0;gap:24px 0}.proofs>div{padding-inline:18px}.proofs>div:nth-child(odd){border-left:0;padding-left:0}.index-row{padding-inline:8px}.profile-note{padding-left:20px}}
+@media(max-width:650px){.executive h1{font-size:2.9rem}.proofs{padding:24px 0;gap:24px 0}.proofs>div{padding-inline:18px}.proofs>div:nth-child(odd){border-left:0;padding-left:0}.index-row{padding-inline:8px}.profile-note{padding-left:20px}}
 @media print{body,.header,.proofs,.architecture{background:white;box-shadow:none}.proofs strong,.mission-title h2,.case h2,.expertise-card h2{color:black}}
